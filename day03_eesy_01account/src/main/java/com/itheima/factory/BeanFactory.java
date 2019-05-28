@@ -23,8 +23,12 @@ public class BeanFactory {
 		this.accountService = accountService;
 	}
 
+	/**
+	 * 获取Service代理对象
+	 * @return
+	 */
 	public IAccountService getAccountService() {
-		Proxy.newProxyInstance(accountService.getClass().getClassLoader(),
+		return (IAccountService)Proxy.newProxyInstance(accountService.getClass().getClassLoader(),
 				accountService.getClass().getInterfaces(),
 				new InvocationHandler() {
 					/**
