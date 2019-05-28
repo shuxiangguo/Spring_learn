@@ -1,51 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b74587d-57f1-4c33-b2d2-2891a3b520f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_01anno_ioc/src/main/java/com/itheima/dao/IAccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_01anno_ioc/src/main/java/com/itheima/dao/impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_01anno_ioc/src/main/java/com/itheima/dao/impl/AccountDaoImpl1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_01anno_ioc/src/main/java/com/itheima/service/IAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_01anno_ioc/src/main/java/com/itheima/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_01anno_ioc/src/main/java/com/itheima/ui/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_01anno_ioc/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_02account_xmlioc/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_02account_xmlioc/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_02account_xmlioc/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_02account_xmlioc/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_02account_xmlioc/src/main/java/com/itheima/dao/IAccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_02account_xmlioc/src/main/java/com/itheima/dao/impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_02account_xmlioc/src/main/java/com/itheima/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_02account_xmlioc/src/main/java/com/itheima/service/IAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_02account_xmlioc/src/main/java/com/itheima/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_02account_xmlioc/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_03account_annotation/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_03account_annotation/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_03account_annotation/src/main/java/com/itheima/dao/IAccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_03account_annotation/src/main/java/com/itheima/dao/impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_03account_annotation/src/main/java/com/itheima/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_03account_annotation/src/main/java/com/itheima/service/IAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_03account_annotation/src/main/java/com/itheima/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_03account_annotation/src/main/java/com/itheima/test/AccountServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_03account_annotation/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day02_eesy_03account_annotation/src/test/java/com/itheima/test/AccountServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/dao/IAccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/dao/impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/service/IAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/test/AccountServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/JdbcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/SpringConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbcConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/itheima/test/AccountServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/itheima/test/QueryRunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring学习笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring学习笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day01_eesy_05DI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day01_eesy_05DI/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1b74587d-57f1-4c33-b2d2-2891a3b520f5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -157,7 +113,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
     <option name="y" value="-12" />
     <option name="width" value="1644" />
@@ -440,7 +396,7 @@
       <option name="presentableId" value="Default" />
       <updated>1559001965590</updated>
       <workItem from="1559001967980" duration="7137000" />
-      <workItem from="1559010198603" duration="606000" />
+      <workItem from="1559010198603" duration="856000" />
     </task>
     <servers />
   </component>
@@ -477,10 +433,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7743000" />
+    <option name="totallyTimeSpent" value="7993000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="735" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31689572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -491,7 +447,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32928944" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32928944" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
