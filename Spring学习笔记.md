@@ -244,3 +244,86 @@ Spring整合Junit的配置
 ```
 
 **事务控制应该都是在业务层**
+
+**动态代理**
+
+```
+特点：字节码随用随创建
+*  作用：不修改源码的基础上对方法增强
+*  分类：
+*      1、基于接口的动态代理：
+*          涉及的类：Proxy
+*          提供者：JDK官方
+*          如何创建代理对象：
+*              使用Proxy类中的newProxyInstance方法
+*          创建代理对象的要求：
+*              被代理类最少实现一个接口，如果没有则不能使用
+*          newProxyInstance方法的参数:
+*              ClassLoader:类加载器，用于加载代理对象字节码 固定写法
+*              Class[]:字节码数组，用于让代理对象和被代理对象有相同方法 固定写法
+*              InvocationHandler：用于提供增强的代码；它是让我们写如何代理，我们一般都是写一个该接口的实现类，
+*              通常情况下都是匿名内部类，但不是必须的。此接口的实现类是谁用谁写
+		2、基于子类的动态代理
+		 *          涉及的类：Enhancer
+		 * 		 *          提供者：第三方cglib库
+		 * 		 *          如何创建代理对象：
+		 * 		 *              使用Enhancer类中的create方法
+		 * 		 *          创建代理对象的要求：
+		 * 		 *              被代理类不能是final类
+		 * 		 *          create方法的参数:
+		 * 		 *              Class:字节码；它是用于指定被代理对象的字节码
+		 * 		            Callback:用于提供增强的代码
+		 * 		                它是让我们写如何代理。一般都是写一个该接口的实现类，通常情况下都是匿名
+		 * 		                内部类，但不是必须
+		 * 		                此接口的实现类都是谁用谁写。
+		 * 		                我们一般写的都是该接口的子接口实现类：MethodInterceptor
+```
+
+------------
+
+## Spring第三天：Spring中的aop
+
+**Spring中基于XML的aop配置步骤**
+
+```
+1、把通知的Bean也交给Spring来管理
+            2、使用aop:config标签表明开始AOP的配置
+            3、使用aop:aspect标签表明配置切面
+                id属性：是给切面提供一个唯一标识
+                ref属性：是指定通知类bean的id
+            4、在aop:aspect标签的内部使用对应标签来配置通知的类型
+                我们现在的示例是让printLog方法在切入点方法执行之前执行，所以是前置通知。
+                aop:before：表示配置前置通知
+                    method属性：用于指定Logger类中哪个方法是前置通知
+                    pointcut属性：用于指定切入点表达式，该表达式的含义指的是对业务层中哪些方法增强
+               切入点表达式的写法：
+                 关键字：execution(表达式)
+                 表达式：
+                    访问修饰符 返回值 包名.包名...类名.方法名(参数列表)
+                    标准的表达式写法：
+                        public void com.itheima.service.impl.AccountServiceImpl.saveAccount()
+                    访问修饰符可以省略
+                        void  com.itheima.service.impl.AccountServiceImpl.saveAccount()
+                    返回值可以使用通配符，表示任意返回值
+                        * com.itheima.service.impl.AccountServiceImpl.saveAccount()
+                    包名可以使用通配符，表示任意包。但是有几级包，就需要些几个*
+                        * *.*.*.*.AccountServiceImpl.saveAccount()
+                    包名可以使用..表示当前包及其子包
+                        * *..AccountServiceImpl.saveAccount()
+                    名和方法名都可以使用*来实现通配
+                        * *..*.*()
+                    参数列表：
+                        可以直接写数据类型：
+                            基本类型写名称 int
+                            引用类型写包名.类名的方式 java.lang.String
+                        可以使用通配符表示任意类型，但是必须有参数
+                        可以使用..表示有无参数均可，有参数可以是任意类型
+                    全通配写法：
+                        * *..*.*(..)
+                    实际开发中切入点表达式的通常写法：
+                        切到业务层实现类下的所有方法
+                            * com.itheima.service.impl.*.*(..)
+```
+
+
+
