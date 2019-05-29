@@ -571,3 +571,85 @@ public class Logger {
    }
 }
 ```
+
+
+
+## Spring第四天的学习
+
+安排：
+
+1.Spring中JdbcTemplate
+
+​	JdbcTemplate的作用：
+
+​							用于和数据库交互，实现对表的CRUD操作
+
+​    如何创建该对象：
+
+​    对象中的常用方法：
+
+2.Spring中的事务控制
+
+*  基于XML的
+
+* 基于注解的
+
+### 第一章 Spring中的JdbcTemplate（会用)
+
+**bean.xml配置文件**
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    配置jdbcTemplate-->
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+<!--    配置数据源-->
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
+        <property name="url" value="jdbc:mysql://localhost:3306/eesy"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value="123456"></property>
+    </bean>
+
+</beans>
+```
+
+**测试类**
+
+```java
+package com.itheima.jdbctemplate;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
+
+/**
+ * JdbcTemplate的最基本用法
+ */
+
+public class JdbcTemplateDemo1 {
+   public static void main(String[] args) {
+      //准备数据源，Spring的内置数据源
+      DriverManagerDataSource ds = new DriverManagerDataSource();
+      ds.setDriverClassName("com.mysql.jdbc.Driver");
+      ds.setUrl("jdbc:mysql://localhost:3306/eesy");
+      ds.setUsername("root");
+      ds.setPassword("123456");
+
+      // 1.创建JdbcTemplate对象
+      JdbcTemplate jt = new JdbcTemplate();
+
+      // 给jt设置数据源
+      jt.setDataSource(ds);
+
+      // 2.执行操作
+      jt.execute("insert into account(name, money) values('ccc', 1000)");
+   }
+}
+```

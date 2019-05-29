@@ -19,7 +19,7 @@ public class JdbcTemplateDemo2 {
 		// 3.执行操作
 		jt.execute("insert into account(name, money) values('ddd', 2222)");
 
-		
+
 //		//准备数据源，Spring的内置数据源
 //		DriverManagerDataSource ds = new DriverManagerDataSource();
 //		ds.setDriverClassName("com.mysql.jdbc.Driver");
