@@ -6,7 +6,8 @@
 
 <!--     配置账户的持久层-->
     <bean id="accountDao" class="com.itheima.dao.impl.AccountDaoImpl">
-        <property name="jdbcTemplate" ref="jdbcTemplate"></property>
+<!--        <property name="jdbcTemplate" ref="jdbcTemplate"></property>-->
+        <property name="dataSource" ref="dataSource"></property>
     </bean>
 
 

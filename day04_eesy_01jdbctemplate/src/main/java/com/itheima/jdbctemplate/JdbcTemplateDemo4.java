@@ -21,7 +21,7 @@ public class JdbcTemplateDemo4 {
 		Account account = accountDao.findAccountById(1);
 		System.out.println(account);
 
-		account.setMoney(10000f);
+		account.setMoney(30000f);
 		accountDao.updateAccount(account);
 	}
 }
