@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3e26d43-3ca3-4c6c-ae3b-c9cc4848e57e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/itheima/test/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/itheima/test/AccountServiceTest.java" afterDir="false" />
+    <list default="true" id="313d66ab-c92e-411b-86ee-73aaf9400dac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../day04_eesy_04tx/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day04_eesy_04tx/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day04_eesy_04tx/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day04_eesy_04tx/src/main/java/com/itheima/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day04_eesy_04tx/src/main/java/com/itheima/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day04_eesy_04tx/src/main/java/com/itheima/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day04_eesy_04tx/src/main/java/com/itheima/jdbctemplate/JdbcTemplateDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day04_eesy_04tx/src/main/java/com/itheima/jdbctemplate/JdbcTemplateDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day04_eesy_04tx/src/main/java/com/itheima/jdbctemplate/JdbcTemplateDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day04_eesy_04tx/src/main/java/com/itheima/jdbctemplate/JdbcTemplateDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day04_eesy_04tx/src/main/java/com/itheima/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day04_eesy_04tx/src/main/java/com/itheima/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day04_eesy_04tx/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day04_eesy_04tx/src/test/java/com/itheima/test/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/jdbctemplate/JdbcTemplateDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/jdbctemplate/JdbcTemplateDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/jdbctemplate/JdbcTemplateDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/jdbctemplate/JdbcTemplateDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/itheima/test/AccountServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04_eesy_02account_aoptx_xml/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day04_eesy_02account_aoptx_xml/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04_eesy_02account_aoptx_xml/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day04_eesy_02account_aoptx_xml/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04_eesy_02account_aoptx_xml/src/test/java/com/itheima/test/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day04_eesy_02account_aoptx_xml/src/test/java/com/itheima/test/AccountServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,15 +43,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+            <state relative-caret-position="249">
+              <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -32,11 +62,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/bean.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/test/AccountServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+            <state relative-caret-position="76">
+              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -44,17 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/service/impl/AccountServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/bean.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+            <state relative-caret-position="171">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -67,10 +97,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/bean.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/itheima/service/impl/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/bean.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/itheima/test/AccountServiceTest.java" />
       </list>
     </option>
   </component>
@@ -87,7 +116,9 @@
     <option name="width" value="1644" />
     <option name="height" value="984" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -97,38 +128,38 @@
         <subPane>
           <expand>
             <path>
-              <item name="day04_eesy_02account_aoptx_xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day04_eesy_02account_aoptx_xml" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_05tx_xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_05tx_xml" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day04_eesy_02account_aoptx_xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day04_eesy_02account_aoptx_xml" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_05tx_xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_05tx_xml" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day04_eesy_02account_aoptx_xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day04_eesy_02account_aoptx_xml" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_05tx_xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_05tx_xml" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day04_eesy_02account_aoptx_xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day04_eesy_02account_aoptx_xml" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_05tx_xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_05tx_xml" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day04_eesy_02account_aoptx_xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day04_eesy_02account_aoptx_xml" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_05tx_xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_05tx_xml" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="itheima" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day04_eesy_02account_aoptx_xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day04_eesy_02account_aoptx_xml" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_05tx_xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_05tx_xml" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -136,8 +167,8 @@
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day04_eesy_02account_aoptx_xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day04_eesy_02account_aoptx_xml" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_05tx_xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_05tx_xml" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -146,8 +177,8 @@
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day04_eesy_02account_aoptx_xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day04_eesy_02account_aoptx_xml" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_05tx_xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_05tx_xml" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -155,8 +186,8 @@
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day04_eesy_02account_aoptx_xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day04_eesy_02account_aoptx_xml" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_05tx_xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_05tx_xml" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -165,28 +196,28 @@
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day04_eesy_02account_aoptx_xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day04_eesy_02account_aoptx_xml" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_05tx_xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_05tx_xml" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day04_eesy_02account_aoptx_xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day04_eesy_02account_aoptx_xml" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_05tx_xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_05tx_xml" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day04_eesy_02account_aoptx_xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day04_eesy_02account_aoptx_xml" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_05tx_xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_05tx_xml" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day04_eesy_02account_aoptx_xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day04_eesy_02account_aoptx_xml" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_05tx_xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_05tx_xml" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -215,7 +246,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\workspace2019\Java\Spring_Learn\day04_eesy_02account_aoptx_xml" />
+      <recent name="F:\workspace2019\Java\Spring_Learn\day04_eesy_05tx_xml" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -244,7 +275,7 @@
       </method>
     </configuration>
     <configuration name="AccountServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day04_eesy_02account_aoptx_xml" />
+      <module name="day04_eesy_05tx_xml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.itheima.test.*" />
@@ -295,95 +326,121 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a3e26d43-3ca3-4c6c-ae3b-c9cc4848e57e" name="Default Changelist" comment="" />
-      <created>1559173485125</created>
+      <changelist id="313d66ab-c92e-411b-86ee-73aaf9400dac" name="Default Changelist" comment="" />
+      <created>1559178751312</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1559173485125</updated>
-      <workItem from="1559173487098" duration="754000" />
-      <workItem from="1559177572530" duration="440000" />
+      <updated>1559178751312</updated>
+      <workItem from="1559178753209" duration="5337000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AccountServiceTest - 2019.05.30 at 07h 56m 23s.xml">
+    <history-entry file="AccountServiceTest - 2019.05.30 at 09h 37m 07s.xml">
       <configuration name="AccountServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountServiceTest - 2019.05.30 at 07h 56m 55s.xml">
+    <history-entry file="AccountServiceTest - 2019.05.30 at 09h 43m 19s.xml">
+      <configuration name="AccountServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountServiceTest - 2019.05.30 at 10h 06m 42s.xml">
+      <configuration name="AccountServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountServiceTest - 2019.05.30 at 10h 29m 41s.xml">
+      <configuration name="AccountServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountServiceTest - 2019.05.30 at 10h 31m 03s.xml">
+      <configuration name="AccountServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountServiceTest - 2019.05.30 at 10h 40m 25s.xml">
       <configuration name="AccountServiceTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1194000" />
+    <option name="totallyTimeSpent" value="5337000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24252222" />
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497979" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" weight="0.32928944" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32928944" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32928944" />
+      <window_info anchor="bottom" id="Messages" weight="0.32928944" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32928944" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3934142" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32928944" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32928944" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/com/itheima/test/AccountServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day04_eesy_05tx_xml.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/dao/impl/AccountDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/service/impl/AccountServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bean.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+        <state relative-caret-position="171">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/test/AccountServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        <state relative-caret-position="76">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
         </state>
       </provider>
     </entry>
